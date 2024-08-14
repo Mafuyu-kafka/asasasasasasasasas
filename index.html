@@ -1,0 +1,23 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #miImagen {
+            position: relative;
+            /* Ajusta otros estilos según tus necesidades */
+        }
+    </style>
+</head>
+<body>
+    <img id="miImagen" src="ruta_de_la_imagen.jpg" alt="Mi imagen">
+    <script>
+        const imagen = document.getElementById("miImagen");
+        imagen.addEventListener("click", () => {
+            // Aquí puedes agregar la lógica para mover la imagen
+            // Por ejemplo, cambiar la posición con CSS o animaciones.
+            alert("¡Has hecho clic en la imagen!");
+        });
+    </script>
+</body>
+</html>
